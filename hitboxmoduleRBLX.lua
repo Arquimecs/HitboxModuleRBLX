@@ -21,7 +21,6 @@ local RunService = game:GetService("RunService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Players = game:GetService("Players")
 local Packages = ReplicatedStorage.Packages
-local Gizmo = require(Packages.Gizmo)
 
 function Hitbox._detectHits(hitbox: Hitbox)
 	
